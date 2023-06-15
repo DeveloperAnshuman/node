@@ -1,9 +1,13 @@
-Flipkart App
+Flipkart
 
 Page 1
 List of Categories
 
-//https://flipkartapi-9rry.onrender.com/Category
+https://flipkartapi-9rry.onrender.com
+http://localhost:5500/
 
 Products
-//https://flipkartapi-9rry.onrender.com/products
+
+Filters wrt to products
+
+Orders
