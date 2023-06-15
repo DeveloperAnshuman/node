@@ -1,0 +1,214 @@
+
+db.products.insert([
+    {
+        "products": [
+            {
+                "id": 1,
+                "product_name": "Sugar",
+                "category_id": 1,
+                "Price": 240,
+                "description": "Maddhur 5kg pack",
+                "Image": "https://i.ibb.co/vxNv3sX/download.jpg"
+            },
+            {
+                "id": 2,
+                "product_name": "Cooking Oil",
+                "category": "Groceries",
+                "category_id": 1,
+                "Price": 660,
+                "description": "5l saffola",
+                "Image": "https://i.ibb.co/wS1TgRk/download-1.jpg"
+            },
+            {
+                "id": 3,
+                "product_name": "Bread",
+                "category": "Groceries",
+                "category_id": 1,
+                "Price": 150,
+                "Image": "https://i.ibb.co/WKrRHr2/images.jpg"
+            },
+            {
+                "id": 4,
+                "product_name": "Milk",
+                "category": "Groceries",
+                "category_id": 1,
+                "Price": 90,
+                "Image": "https://i.ibb.co/XF1wq67/images-1.jpg"
+            },
+            {
+                "id": 5,
+                "product_name": "T-Shirt",
+                "category": "Fashion",
+                "category_id": 6,
+                "Price": 449,
+                "description": "Men Color Block Round Neck Cotton ",
+                "Size": "Large",
+                "Brand": "H&M",
+                "Image": "https://i.ibb.co/f0QhBQC/images-2.jpg"
+            },
+            {
+                "id": 6,
+                "product_name": "Jeans",
+                "category": "Fashion",
+                "category_id": 6,
+                "Price": 999,
+                "description": " Men Slim Mid Rise Blue Jeans",
+                "Size": "Medium",
+                "Brand": "Wrangler",
+                "Image": "https://i.ibb.co/rMhScGS/download-2.jpg"
+            },
+            {
+                "id": 7,
+                "product_name": "Saree",
+                "category": "Fashion",
+                "category_id": 6,
+                "Price": 2999,
+                "description": "Woven Banarasi Pure Silk Saree  ",
+                "Size": "Small",
+                "Brand": "Mohe",
+                "Image": "https://i.ibb.co/Z10rhb0/images-3.jpg"
+            },
+            {
+                "id": 8,
+                "product_name": " Nike Shoes",
+                "category": "Fashion",
+                "category_id": 6,
+                "Price": 2999,
+                "description": "trendy white casual shoes",
+                "Size": "9",
+                "Brand": "Nike",
+                "Image": "https://i.ibb.co/cb6BDbc/download-3.jpg"
+            },
+            {
+                "id": 9,
+                "product_name": " Samsung Smart TV",
+                "category": "Electronics",
+                "category_id": 2,
+                "Price": 65999,
+                "Brand": "Samsung",
+                "Image": "https://i.ibb.co/Bwk41qN/download-4.jpg"
+            },
+            {
+                "id": 10,
+                "product_name": "Laptop",
+                "category": "Electronics",
+                "category_id": 2,
+                "Price": 49999,
+                "Brand": "ASUS",
+                "Image": "https://i.ibb.co/fGQRwGC/download-5.jpg"
+            },
+            {
+                "id": 11,
+                "product_name": "Headphones",
+                "category": "Electronics",
+                "category_id": 2,
+                "Price": 699,
+                "Brand": "Sony",
+                "Image": "https://i.ibb.co/k2n2tpZ/download-6.jpg"
+            },
+            {
+                "id": 12,
+                "product_name": "Samsung A32",
+                "category": "Electronics",
+                "Price": 19999,
+                "Brand": "Samsung",
+                "Image": "https://i.ibb.co/DCrTH3s/download-7.jpg"
+            },
+            {
+                "id": 13,
+                "product_name": "Shampoo",
+                "category": "Beauty,Toys and More",
+                "category_id": 4,
+                "Price": 299,
+                "Image": "https://i.ibb.co/nnSbKbJ/download-8.jpg"
+            },
+            {
+                "id": 14,
+                "product_name": "Toy Car",
+                "category": "Beauty,Toys and More",
+                "Price": 299,
+                "Image": "https://i.ibb.co/d6KX9LM/download-9.jpg"
+            },
+            {
+                "id": 15,
+                "product_name": "Face Cream",
+                "category": "Beauty,Toys and More",
+                "category_id": 4,
+                "Price": 399,
+                "Image": "https://i.ibb.co/31jBp9p/images-4.jpg"
+            },
+            {
+                "id": 16,
+                "product_name": "Puzzle",
+                "category": "Beauty,Toys and More",
+                "category_id": 4,
+                "Price": 200,
+                "Image": "https://i.ibb.co/gtBZyvd/download-10.jpg"
+            },
+            {
+                "id": 17,
+                "product_name": " Atlas Bicycle",
+                "category": "Two Wheelers",
+                "category_id": 5,
+                "Price": 5000,
+                "Image": "https://i.ibb.co/N9RT6Dp/download-11.jpg"
+            },
+            {
+                "id": 18,
+                "product_name": " Hero Motorcycle",
+                "category": "Two Wheelers",
+                "category_id": 5,
+                "Price": 79000,
+                "Image": "https://i.ibb.co/ysVnmLn/images-5.jpg"
+            },
+            {
+                "id": 19,
+                "product_name": "Honda Activa",
+                "category": "Two Wheelers",
+                "category_id": 5,
+                "Price": 60000,
+                "Image": "https://i.ibb.co/zhDQt9S/download-12.jpg"
+            },
+            {
+                "id": 20,
+                "product_name": "Skateboard",
+                "category": "Two Wheelers",
+                "category_id": 5,
+                "Price": 1999,
+                "Image": "https://i.ibb.co/RgM76Ys/images-6.jpg"
+            },
+            {
+                "id": 21,
+                "product_name": "Couch",
+                "category": "Home",
+                "category_id": 3,
+                "Price": 15999,
+                "Image": "https://i.ibb.co/ZcKRzTp/download-13.jpg"
+            },
+            {
+                "id": 22,
+                "product_name": "Dining Table",
+                "category": "Home",
+                "category_id": 3,
+                "Price": 19999,
+                "Image": "https://i.ibb.co/cL1RzNP/download-14.jpg"
+            },
+            {
+                "id": 23,
+                "product_name": "Bed",
+                "category": "Home",
+                "category_id": 3,
+                "Price": 29999,
+                "Image": "https://i.ibb.co/vLrn4fN/download-15.jpg"
+            },
+            {
+                "id": 24,
+                "product_name": "Desk Lamp",
+                "category": "Home",
+                "category_id": 3,
+                "Price": 1499,
+                "Image": "https://i.ibb.co/Gks7cdt/download-16.jpg"
+            }
+        ]
+    }
+])

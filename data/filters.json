@@ -1,0 +1,12 @@
+db.filters.insert([
+  {
+    "price_range": {
+      "min_price": 10,
+      "max_price": 100000
+    },
+    "rating_range": {
+      "min_rating": 1,
+      "max_rating": 5
+    }
+  }
+])

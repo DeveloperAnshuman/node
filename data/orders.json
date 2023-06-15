@@ -1,0 +1,73 @@
+db.orders.insert([
+{
+    "orders": [
+        {
+            "order_id": 1,
+            "customer": {
+                "user_id": "12345abcd",
+                "name": "Amit",
+                "email": "amit@gmail.com",
+                "address": "123 AB Road, Indore, India"
+            },
+            "products": [
+                {
+                    "id": 5,
+                    "product_name": "T-Shirt",
+                    "category": "Fashion",
+                    "category_id": 6,
+                    "quantity": 2,
+                    "Price": 449,
+                    "Size": "Large",
+                    "Brand": "H&M",
+                    "Image": "https://i.ibb.co/f0QhBQC/images-2.jpg"
+                },
+                {
+                    "id": 12,
+                    "product_name": "Smartphone",
+                    "category": "Electronics",
+                    "quantity": "1",
+                    "category_id": 2,
+                    "Price": 19999,
+                    "Brand": "Samsung",
+                    "Image": "https://i.ibb.co/DCrTH3s/download-7.jpg"
+                }
+            ],
+            "total": 20897,
+            "status": "shipped"
+        },
+        {
+            "order_id": 2,
+            "customer": {
+                "user_id": "987654abcd",
+                "name": "Sonal",
+                "email": "sonal@gmail.com",
+                "address": " H.no 25 Sector 32, Chandigarh"
+            },
+            "products": [
+                {
+                    "id": 2,
+                    "product_name": "Cooking Oil",
+                    "category": "Groceries",
+                    "category_id": 1,
+                    "quantity": "1",
+                    "Price": 660,
+                    "Image": "https://i.ibb.co/wS1TgRk/download-1.jpg"
+                },
+                {
+                    "id": 8,
+                    "product_name": "Shoes",
+                    "category": "Fashion",
+                    "quantity": "2",
+                    "category_id": 6,
+                    "Price": 2999,
+                    "Size": "9",
+                    "Brand": "Nike",
+                    "Image": "https://i.ibb.co/cb6BDbc/download-3.jpg"
+                }
+            ],
+            "total": 6658,
+            "status": "pending"
+        }
+    ]
+}
+])

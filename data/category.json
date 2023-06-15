@@ -1,0 +1,33 @@
+
+db.category.insert(
+[
+    {
+        "categories": [
+            {
+                "id": 1,
+                "category": "Groceries"
+            },
+            {
+                "id": 2,
+                "category": "Electronics"
+            },
+            {
+                "id": 3,
+                "category": "Home"
+            },
+            {
+                "id": 4,
+                "category": "Beauty,Toys and More"
+            },
+            {
+                "id": 5,
+                "category": "Two Wheelers"
+            },
+            {
+                "id": 6,
+                "category": "Fashion"
+            }
+        ]
+    }
+]
+)
